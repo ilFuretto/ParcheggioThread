@@ -70,6 +70,7 @@ namespace ParcheggioThread
             }
             finally 
             { 
+                uscita.Coda.Remove(this);
                 parcheggio.AggiornaListBox(uscitaBox, ToString(), TempoSosta, false);
             }
         }

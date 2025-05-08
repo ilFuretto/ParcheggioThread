@@ -61,12 +61,23 @@ namespace ParcheggioThread
                 usciteBoxes.Add(box);
                 form.FlowPanelUscite.Controls.Add(box);
             }
+            form.Shown += Form_Shown;
+        }
+        private void Form_Shown(object sender, EventArgs e)
+        {
             AvviaAuto();
         }
 
         private void AvviaAuto()
         {
-            Automobile auto = new Automobile( this);
+            new Thread(() =>
+            {
+                for (int i = 10; i > 0; i--)
+                {
+                    Automobile auto = new Automobile(this);
+                    Thread.Sleep(1000);
+                }
+            }).Start();
         }
 
         public ListBox GetIngressoBox(int index)
