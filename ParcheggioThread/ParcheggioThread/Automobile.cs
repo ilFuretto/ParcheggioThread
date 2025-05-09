@@ -43,7 +43,7 @@ namespace ParcheggioThread
         public void CicloAutomobile()
         {
             Ingresso ingresso = Entra();
-            Thread.Sleep(ingresso.TempoIngresso * 1000);
+            
             while (parcheggio.Form.CentroBox.Items.Count >= parcheggio.Posti)
                 Thread.Sleep(2000);
             try
@@ -52,7 +52,7 @@ namespace ParcheggioThread
             }
             finally
             {
-
+                Thread.Sleep(ingresso.TempoIngresso * 1000);
                 parcheggio.SemIngresso.Release();
                 ingresso.Coda.Remove(this);
                 parcheggio.AggiornaListBox(ingrBox, ToString(), TempoSosta, false);
@@ -69,7 +69,9 @@ namespace ParcheggioThread
                 parcheggio.SemUscita.WaitOne();
             }
             finally 
-            { 
+            {
+                Thread.Sleep(uscita.TempoUscita * 1000);
+                parcheggio.SemUscita.Release();
                 uscita.Coda.Remove(this);
                 parcheggio.AggiornaListBox(uscitaBox, ToString(), TempoSosta, false);
             }
@@ -92,8 +94,6 @@ namespace ParcheggioThread
         {
             uscita.Coda.Add(this);
             parcheggio.AggiornaListBox(uscitaBox, ToString(), TempoSosta, true);
-            Thread.Sleep(uscita.TempoUscita*1000);
-
         }
 
         private int accesso(string sbarra)

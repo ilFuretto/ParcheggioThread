@@ -42,7 +42,7 @@ namespace ParcheggioThread
                 ingressoList.Add(ingresso);
 
                 ListBox box = new ListBox();
-                box.Width = 165;
+                box.Width = 200;
                 box.Height = 180;
                 box.Name = "lstIngresso" + i;
                 ingressiBoxes.Add(box);
@@ -55,7 +55,7 @@ namespace ParcheggioThread
                 uscitaList.Add(uscita);
 
                 ListBox box = new ListBox();
-                box.Width = 165;
+                box.Width = 200;
                 box.Height = 180;
                 box.Name = "lstUscita" + i;
                 usciteBoxes.Add(box);

@@ -43,7 +43,7 @@ namespace ParcheggioThread
 
             FlowPanelUscite = new FlowLayoutPanel();
             FlowPanelUscite.Location = new Point(820, 0);
-            FlowPanelUscite.Size = new Size(250, this.Height);
+            FlowPanelUscite.Size = new Size(300, this.Height);
             FlowPanelUscite.AutoScroll = true; 
             this.Controls.Add(FlowPanelUscite);
         }

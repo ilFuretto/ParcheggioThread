@@ -18,7 +18,7 @@ namespace ParcheggioThread
 
         public Uscita()
         {
-            TempoUscita = casuale.Next(1,10);
+            TempoUscita = casuale.Next(1,5);
             Coda = new List<Automobile>();
         }
     }

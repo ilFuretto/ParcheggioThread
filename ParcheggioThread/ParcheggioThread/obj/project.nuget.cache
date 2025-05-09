@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "15cJSwVsVMk=",
+  "dgSpecHash": "e5lo8ubjmWg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\coolm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\coolm\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\coolm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\coolm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

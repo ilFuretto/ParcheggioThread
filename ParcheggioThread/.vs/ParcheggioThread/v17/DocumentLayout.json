@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|c:\\users\\coolm\\desktop\\parcheggiothread\\parcheggiothread\\parcheggiothread\\automobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|solutionrelative:parcheggiothread\\automobile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|c:\\users\\coolm\\desktop\\parcheggiothread\\parcheggiothread\\parcheggiothread\\parcheggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|solutionrelative:parcheggiothread\\parcheggio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|c:\\users\\coolm\\desktop\\parcheggiothread\\parcheggiothread\\parcheggiothread\\miothread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|solutionrelative:parcheggiothread\\miothread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|c:\\users\\coolm\\desktop\\parcheggiothread\\parcheggiothread\\parcheggiothread\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|solutionrelative:parcheggiothread\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|c:\\users\\coolm\\desktop\\parcheggiothread\\parcheggiothread\\parcheggiothread\\uscita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|solutionrelative:parcheggiothread\\uscita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|c:\\users\\coolm\\desktop\\parcheggiothread\\parcheggiothread\\parcheggiothread\\ingresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|solutionrelative:parcheggiothread\\ingresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|c:\\users\\coolm\\desktop\\parcheggiothread\\parcheggiothread\\parcheggiothread\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0795A640-00E4-455A-81CB-48A88A5EB384}|ParcheggioThread\\ParcheggioThread.csproj|solutionrelative:parcheggiothread\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{26341fe2-71dd-46fd-bb1b-2e51a92a0d64}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Form1.cs",
+              "RelativeDocumentMoniker": "ParcheggioThread\\Form1.cs",
+              "ToolTip": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Form1.cs",
+              "RelativeToolTip": "ParcheggioThread\\Form1.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAkwCgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:07:46.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Uscita.cs",
+              "DocumentMoniker": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Uscita.cs",
+              "RelativeDocumentMoniker": "ParcheggioThread\\Uscita.cs",
+              "ToolTip": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Uscita.cs",
+              "RelativeToolTip": "ParcheggioThread\\Uscita.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:07:06.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Parcheggio.cs",
+              "DocumentMoniker": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Parcheggio.cs",
+              "RelativeDocumentMoniker": "ParcheggioThread\\Parcheggio.cs",
+              "ToolTip": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Parcheggio.cs",
+              "RelativeToolTip": "ParcheggioThread\\Parcheggio.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAMwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:07:04.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MioThread.cs",
+              "DocumentMoniker": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\MioThread.cs",
+              "RelativeDocumentMoniker": "ParcheggioThread\\MioThread.cs",
+              "ToolTip": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\MioThread.cs",
+              "RelativeToolTip": "ParcheggioThread\\MioThread.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:07:03.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ingresso.cs",
+              "DocumentMoniker": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Ingresso.cs",
+              "RelativeDocumentMoniker": "ParcheggioThread\\Ingresso.cs",
+              "ToolTip": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Ingresso.cs",
+              "RelativeToolTip": "ParcheggioThread\\Ingresso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:07:02.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Automobile.cs",
+              "DocumentMoniker": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Automobile.cs",
+              "RelativeDocumentMoniker": "ParcheggioThread\\Automobile.cs",
+              "ToolTip": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Automobile.cs",
+              "RelativeToolTip": "ParcheggioThread\\Automobile.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:07:00.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Form1.cs",
+              "RelativeDocumentMoniker": "ParcheggioThread\\Form1.cs",
+              "ToolTip": "C:\\Users\\coolm\\Desktop\\ParcheggioThread\\ParcheggioThread\\ParcheggioThread\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "ParcheggioThread\\Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:07:41.665Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
