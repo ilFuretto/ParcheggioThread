@@ -43,17 +43,18 @@ namespace ParcheggioThread
         public void CicloAutomobile()
         {
             Ingresso ingresso = Entra();
-            
+            int nSem = parcheggio.IngressoList.IndexOf(ingresso);
             while (parcheggio.Form.CentroBox.Items.Count >= parcheggio.Posti)
                 Thread.Sleep(2000);
             try
             {
-                parcheggio.SemIngresso.WaitOne();
+                
+                parcheggio.SemIngressi[nSem].WaitOne();
             }
             finally
             {
                 Thread.Sleep(ingresso.TempoIngresso * 1000);
-                parcheggio.SemIngresso.Release();
+                parcheggio.SemIngressi[nSem].Release();
                 ingresso.Coda.Remove(this);
                 parcheggio.AggiornaListBox(ingrBox, ToString(), TempoSosta, false);
                 parcheggio.AggiornaListBox(parcheggio.Form.CentroBox, ToString(), TempoSosta, true);
@@ -65,13 +66,13 @@ namespace ParcheggioThread
             uscitaBox = parcheggio.GetUscitaBox(uscitaIndex);
             Esci(uscita);
             try 
-            { 
-                parcheggio.SemUscita.WaitOne();
+            {
+                parcheggio.SemUscite[uscitaIndex].WaitOne();
             }
             finally 
             {
                 Thread.Sleep(uscita.TempoUscita * 1000);
-                parcheggio.SemUscita.Release();
+                parcheggio.SemUscite[uscitaIndex].Release();
                 uscita.Coda.Remove(this);
                 parcheggio.AggiornaListBox(uscitaBox, ToString(), TempoSosta, false);
             }

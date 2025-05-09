@@ -9,11 +9,9 @@ namespace ParcheggioThread
     {
         private Form1 form;
         private int posti;
-        private Semaphore semIngresso = new Semaphore(1, 1);
-        private Semaphore semUscita = new Semaphore(1, 1);
+        private List <Semaphore> semIngressi = new List<Semaphore>();
+        private List <Semaphore> semUscite = new List<Semaphore>();
         private Random rnd = new Random();
-
-        
         private List<Ingresso> ingressoList;
         private List<Uscita> uscitaList;
         private List<ListBox> ingressiBoxes = new List<ListBox>();
@@ -22,8 +20,8 @@ namespace ParcheggioThread
         public List<Ingresso> IngressoList { get { return ingressoList; } }
         public List<Uscita> UscitaList { get { return uscitaList; } }
         public Form1 Form { get { return form; } }
-        public Semaphore SemIngresso {  get { return semIngresso; } }
-        public Semaphore SemUscita {  get { return semUscita; } }
+        public List <Semaphore> SemIngressi {  get { return semIngressi; } }
+        public List<Semaphore> SemUscite {  get { return semUscite; } }
         public int Posti {  get { return posti; } }
 
         public Parcheggio(Form1 form, int posti)
@@ -40,7 +38,7 @@ namespace ParcheggioThread
             {
                 Ingresso ingresso = new Ingresso();
                 ingressoList.Add(ingresso);
-
+                SemIngressi.Add(new Semaphore(1, 1));
                 ListBox box = new ListBox();
                 box.Width = 200;
                 box.Height = 180;
@@ -53,7 +51,7 @@ namespace ParcheggioThread
             {
                 Uscita uscita = new Uscita();
                 uscitaList.Add(uscita);
-
+                SemUscite.Add(new Semaphore(1, 1));
                 ListBox box = new ListBox();
                 box.Width = 200;
                 box.Height = 180;
