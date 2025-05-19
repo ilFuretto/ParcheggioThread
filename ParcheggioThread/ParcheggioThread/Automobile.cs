@@ -57,8 +57,9 @@ namespace ParcheggioThread
                 parcheggio.SemIngressi[nSem].Release();
                 ingresso.Coda.Remove(this);
                 parcheggio.AggiornaListBox(ingrBox, ToString(), TempoSosta, false);
+                parcheggio.SemCentrale.WaitOne();
                 parcheggio.AggiornaListBox(parcheggio.Form.CentroBox, ToString(), TempoSosta, true);
-
+                parcheggio.SemCentrale.WaitOne();
                 parcheggio.AggiornaListBox(parcheggio.Form.CentroBox, ToString(), TempoSosta, false);
             }
             int uscitaIndex = random.Next(0, parcheggio.UscitaList.Count);

@@ -9,8 +9,9 @@ namespace ParcheggioThread
     {
         private Form1 form;
         private int posti;
-        private List <Semaphore> semIngressi = new List<Semaphore>();
-        private List <Semaphore> semUscite = new List<Semaphore>();
+        private List <Semaphore> semIngressi;
+        private List <Semaphore> semUscite;
+        private Semaphore semCentrale;
         private Random rnd = new Random();
         private List<Ingresso> ingressoList;
         private List<Uscita> uscitaList;
@@ -20,6 +21,7 @@ namespace ParcheggioThread
         public List<Ingresso> IngressoList { get { return ingressoList; } }
         public List<Uscita> UscitaList { get { return uscitaList; } }
         public Form1 Form { get { return form; } }
+        public Semaphore SemCentrale {  get { return semCentrale; } }
         public List <Semaphore> SemIngressi {  get { return semIngressi; } }
         public List<Semaphore> SemUscite {  get { return semUscite; } }
         public int Posti {  get { return posti; } }
@@ -28,8 +30,11 @@ namespace ParcheggioThread
         {
             this.form = form;
             this.posti = posti;
+            semCentrale = new Semaphore(Posti, Posti);
             ingressoList = new List<Ingresso>();
             uscitaList = new List<Uscita>();
+            semIngressi = new List<Semaphore>();
+            semUscite = new List<Semaphore>();
 
             int numIngressi = rnd.Next(1, 6);
             int numUscite = rnd.Next(1, 6);

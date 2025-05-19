@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParcheggioThread")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6febe679b860c488b0619321664a4a778262ec1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+447da8f6261a20b614b8b1073b94c0529289462d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParcheggioThread")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParcheggioThread")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
